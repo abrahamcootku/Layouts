@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layouts.StackLayout.MainPage"
+             BackgroundColor= "aquamarine"
+             >
+
+
+    <StackLayout
+        Orientation="Horizontal"
+        Spacing="12"
+        BackgroundColor= "Beige"
+        Margin="16,24,32,40"
+        Padding="12"
+        >
+        <Label
+         Text="Hola a todos"
+          HorizontalOptions="Fill"
+            VerticalOptions="Center"
+          BackgroundColor="Coral"/>
+        <Button
+          Text="Uno"/>
+      <Button
+          Text="Dos"
+          HorizontalOptions="Start"
+          VerticalOptions="Start"/>
+      <Button
+          Text="Tres"/>
+      <Button
+          Text="Cuatro"
+          HorizontalOptions="End"
+          VerticalOptions="End"/>
+      <Button
+          Text="Cinco"/>
+      <Button
+      Text="Seis"
+            HorizontalOptions="Center"
+      BackgroundColor="green"/>
+
+    </StackLayout>
+    
+</ContentPage>
